@@ -1,0 +1,54 @@
+{
+  "name": "raven-gastronomia",
+  "version": "1.0.0",
+  "description": "Sitio web para servicio de viandas saludables a domicilio",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8080 --open=/index.html",
+    "dev": "live-server --port=3000 --open=/index.html --watch=assets/",
+    "build": "echo 'No build process required for static site'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'Linting CSS and JS files...'",
+    "serve": "python -m http.server 8000",
+    "serve-php": "php -S localhost:8000"
+  },
+  "keywords": [
+    "viandas",
+    "gastronomia",
+    "delivery",
+    "comida-saludable",
+    "website",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "restaurant"
+  ],
+  "author": {
+    "name": "Raven Gastronomía",
+    "email": "info@raven-gastronomia.com",
+    "url": "https://raven-gastronomia.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raven-gastronomia/website"
+  },
+  "bugs": {
+    "url": "https://github.com/raven-gastronomia/website/issues"
+  },
+  "homepage": "https://raven-gastronomia.com",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
